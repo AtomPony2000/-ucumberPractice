@@ -13,6 +13,6 @@ Feature: Командировки
     Then Грид: ловим ошибку
 
     Examples:
-      | login          | password |
-      | Prohorova Alla | testing  |
-      | Pro100 Alla    | testing  |
+      | login       | password |
+      | Pro100 A    | testing  |
+      | Pro100 Alla | testing  |
