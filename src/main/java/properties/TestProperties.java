@@ -12,7 +12,7 @@ public class TestProperties {
 
     private static TestProperties instance = null;
 
-    private TestProperties(){
+    private TestProperties() {
         try {
             properties.load(new FileInputStream("environment.properties"));
         } catch (IOException e) {
@@ -21,7 +21,7 @@ public class TestProperties {
     }
 
     public static TestProperties getInstance() {
-        if (instance == null){
+        if (instance == null) {
             instance = new TestProperties();
         }
         return instance;

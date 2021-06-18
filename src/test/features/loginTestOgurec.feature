@@ -14,5 +14,5 @@ Feature: Командировки
 
     Examples:
       | login       | password |
-      | Pro100 A    | testing  |
-      | Pro100 Alla | testing  |
+      | Pro100 Alla | :        |
+      | Pro         | Skater   |

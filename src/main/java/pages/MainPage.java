@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import static org.junit.jupiter.api.Assertions.*;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
 public class MainPage extends BasePage {
@@ -31,7 +32,7 @@ public class MainPage extends BasePage {
     }
 
     public void checkSmth() {
-        Assertions.assertTrue(assignmentBtn.isDisplayed(), "Не отображается элемент");
+        assertTrue(assignmentBtn.isDisplayed(), "Не отображается элемент");
 
     }
 }
